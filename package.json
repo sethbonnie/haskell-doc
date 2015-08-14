@@ -1,0 +1,28 @@
+{
+  "name": "haskell-doc",
+  "version": "0.0.0",
+  "description": "A Haskell Documentation server.",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sethbonnie/haskell-doc.git"
+  },
+  "keywords": [
+    "haskell",
+    "documentation"
+  ],
+  "author": "Seth Bonnie <sethkbonnie@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sethbonnie/haskell-doc/issues"
+  },
+  "homepage": "https://github.com/sethbonnie/haskell-doc#readme",
+  "dependencies": {
+    "express": "^4.13.3",
+    "jade": "^1.11.0",
+    "morgan": "^1.6.1"
+  }
+}
