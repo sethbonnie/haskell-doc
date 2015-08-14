@@ -3,7 +3,7 @@ var express = require( 'express' );
 var morgan = require( 'morgan' );
 var routes = require( './routes' );
 
-var port = 2336;
+var port = process.env.PORT || 2336;
 var app = express();
 
 app.set( 'view engine', 'jade' );
